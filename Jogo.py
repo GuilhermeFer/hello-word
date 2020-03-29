@@ -153,7 +153,7 @@ if not len(lista_achei) == 0:
             else:
                 print(letras[c], end='')
 else:
-    print('Desalpe :( ')
+    print('Desculpe')
     add = str(input('Nosso banco de palavras não pode achar sua requisicao. Pode informar a palavra que almejava? ')).upper().strip()
     a = open('PALAVRAS.txt', 'a')
     a.write(f'\n{add}')
